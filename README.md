@@ -1,1 +1,1 @@
-# biboyukk.world
+# biboyukk.github.io
