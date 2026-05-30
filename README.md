@@ -1,1 +1,1 @@
-# biboyukk.wolrd
+# biboyukk.world
