@@ -1,23 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Biboyukk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biboyukk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url('YOUR_BACKGROUND_IMAGE.jpg') center center/cover no-repeat;
+}
+
+body::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(4px);
+}
+
+.profile{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:white;
+}
+
+.banner{
+    width:320px;
+    height:120px;
+    border-radius:18px;
+    background:url('YOUR_BANNER_IMAGE.jpg') center/cover;
+    box-shadow:0 0 30px rgba(0,0,0,.4);
+}
+
+.avatar{
+    width:95px;
+    height:95px;
+    border-radius:50%;
+    border:5px solid #111;
+    margin:-48px auto 15px;
+    display:block;
+    object-fit:cover;
+}
+
+.name{
+    font-size:2rem;
+    font-weight:700;
+}
+
+.username{
+    opacity:.7;
+    margin-top:5px;
+}
+
+.bio{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.socials{
+    margin-top:15px;
+}
+
+.socials a{
+    color:white;
+    text-decoration:none;
+    font-size:28px;
+    margin:0 10px;
+}
+</style>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-    <h1>Hi, i'm biboy</h1>
-    <p>welcome to my website</p>
 
-    <h2>About Me</h2>
-    <p> get rich </p>
+<div class="profile">
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Project 1</li>
-        <li>Project 2</li>
-    </ul>
+    <div class="banner"></div>
 
-    <h2>Contact</h2>
-    <p>Discord: bsukk</p>
+    <img class="avatar" src="YOUR_AVATAR.png">
+
+    <div class="name">Biboyukk</div>
+
+    <div class="username">@biboyukk</div>
+
+    <div class="bio">welcome to my website</div>
+
+    <div class="socials">
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+</div>
+
 </body>
 </html>
 <p>
