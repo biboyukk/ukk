@@ -1,1 +1,1 @@
-# biboyukk.github.io
+# biboy.net
